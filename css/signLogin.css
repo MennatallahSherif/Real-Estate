@@ -1,0 +1,78 @@
+body, .form-container
+{
+    background-color: white;
+}
+body
+{
+    height: 75vh;
+}
+p a:hover
+{
+    text-decoration: underline !important;
+    
+}
+.form-container
+{
+    box-shadow: -5px 2px 54px -9px rgb(0, 0, 0)
+}
+input::placeholder
+{
+    color:  green !important;
+}
+/* .navbar
+{
+    background-color: #24353f !important;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+} */
+.group {
+    box-shadow: -5px 2px 54px -9px rgb(0, 0, 0);
+}
+#usernameAlert, #userEmailAlert, #userPasswordAlert
+{
+    font-size: .8rem;
+}
+
+.textsign{
+    text-decoration: none;
+    color: black;
+}
+
+.textsign:hover{
+    text-decoration:underline;
+    color: green;
+}
+.title1{
+    color: green;
+}
+#usernameInput,#userEmailInput,#userPasswordInput{
+    border: 1px solid  #999999;
+    box-shadow: none;
+
+}
+#usernameInput:hover{
+    border: 2px solid green;
+    box-shadow: none;
+
+}
+#userEmailInput:hover{
+    border: 2px solid green;
+    box-shadow: none;
+
+}
+#userPasswordInput:hover{
+    border: 2px solid green;
+    box-shadow: none;
+
+}
+#loginEmail,#loginPassword{
+    border: 1px solid  #999999;
+    box-shadow: none;
+}
+#loginEmail:hover{
+    border: 2px solid green;
+    box-shadow: none;
+}
+#loginPassword:hover{
+    border: 2px solid green;
+    box-shadow: none;
+}

@@ -1,0 +1,109 @@
+.card {
+    position: relative;
+
+}
+
+
+
+.card {
+    transition: .2s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+.card {
+    position: relative;
+    margin-bottom: 20px;
+    border: 0;
+    border-color: transparent;
+
+}
+
+.text h1 {
+    text-align: center;
+    /* margin-left: 50px; */
+}
+
+.text {
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50%;
+    /* left: 30%; */
+    width: 100%;
+
+}
+
+hr {
+    /* align-content : center; */
+
+    text-align: center;
+    width: 50%;
+    height: 50px;
+    color: white;
+    position: relative;
+    left: 25%;
+
+
+
+}
+
+.title h1 {
+
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 50px;
+}
+
+.title h1:before {
+    width: 28px;
+    height: 5px;
+    display: block;
+    content: "";
+    position: absolute;
+    bottom: 3px;
+    left: 50%;
+    margin-left: -14px;
+    background-color: green;
+}
+
+.title h1:after {
+    width: 100px;
+    height: 1px;
+    display: block;
+    content: "";
+    position: relative;
+    margin-top: 25px;
+    left: 50%;
+    margin-left: -50px;
+    background-color: green;
+}
+
+.card img {
+    height: 400px;
+}
+
+
+
+#nav a h3 {
+    color: green;
+}
+
+#nav .navbar {
+    background-color: white;
+}
+
+#nav .nav-link {
+    color: black;
+    font-size: 20px;
+
+}
+
+#nav .nav-link:hover {
+    color: green;
+}

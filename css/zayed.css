@@ -1,0 +1,31 @@
+#nav a h3{
+    color: green;
+}
+#nav .navbar{
+    background-color: white;
+}
+#nav .nav-link {
+    color: black;
+    font-size: 20px;
+   
+}
+
+ #nav .nav-link:hover {
+    color: green;
+}
+
+#btn1 {
+    transition: all 1s;
+    color: black;
+    display: block;
+}
+#btn2 {
+    transition: all 1s;
+    color: black;
+    display: block;
+}
+#btn3 {
+    transition: all 1s;
+   
+  
+}

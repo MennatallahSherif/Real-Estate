@@ -1,0 +1,155 @@
+#slider .carousel-inner {
+    height: 100%;
+}
+
+#slider .leftside {
+    position: absolute;
+    left: 0;
+    top: 40%;
+}
+
+#slider .carousel-control-next, .carousel-control-prev {
+    position: unset;
+    opacity: 1;
+    width: unset;
+    border: 1px solid white;
+
+
+
+}
+
+#slider .BtnContent {
+    position: relative;
+    padding: 15px;
+}
+
+#slider .layer {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 100%;
+    background-color: white;
+    transition: 0.5s all;
+
+
+}
+
+#slider .carousel-control-prev:hover .layer, #slider .carousel-control-next:hover .layer {
+    right: 0;
+}
+
+#slider .carousel-control-prev-icon, #slider .carousel-control-next-icon {
+    background-image: unset;
+    color: green;
+}
+
+#slider .carousel-control-next i, #slider .carousel-control-prev i {
+    z-index: 3;
+    transition: 0.5s all;
+}
+
+#slider .carousel-control-prev:hover i, #slider .carousel-control-next:hover i {
+    color: green;
+
+}
+
+#slider .text {
+    font-size: 60px;
+    position: absolute;
+    left: 130%;
+    top: 40%;
+    color: white;
+    transform: translate(-50%, -50%);
+    transition: 2s all;
+    width: 50%;
+}
+
+#slider .carousel-item.active .text {
+    top: 40%;
+    left: 50%;
+}
+
+#slider .carousel-item {
+    overflow: hidden;
+}
+
+#slider .carouselExampleInterval {
+   position: relative;
+}
+
+
+#sec2 .buy-content a{
+    transition :all 1s; 
+
+}
+#sec3 .sell-content a{
+    transition :all 1s; 
+
+}
+#sec5{
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+#sec5 .indicator-item img{
+    width: 110px !important;
+    height: 110px !important;
+}
+
+#sec5 .indicator-item img.active{
+    width: 140px !important;
+    height: 140px !important;
+}
+
+#sec5 .single-box p{
+    width: 400px;
+    margin: auto;
+}
+
+#sec5 .client-info h3 {
+    font-size: 16px;
+    line-height: 16px;
+    margin: 0;
+}
+
+#sec5 .client-info{
+    display: none;
+}
+
+#sec5 .indicator-item img.active:first-of-type + div{
+    display: block;
+}
+#nav a h3{
+    color: green;
+}
+#nav .navbar{
+    background-color: white;
+}
+#nav .nav-link {
+    color: black;
+    font-size: 20px;
+   
+}
+
+ #nav .nav-link:hover {
+    color: green;
+}
+
+#btn1 {
+    transition: all 1s;
+    color: black;
+    display: block;
+}
+#btn2 {
+    transition: all 1s;
+    color: black;
+    display: block;
+}
+#btn3 {
+    transition: all 1s;
+   
+  
+}
+
+
